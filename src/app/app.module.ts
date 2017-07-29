@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule }   from '@angular/router';
-
+import { HomeComponent } from './shared/home/home.component'
 import { AppComponent } from './app.component';
 
 RouterModule.forRoot([
-{
-path: 'home',
-component: HomeComponent
-}
+  {
+    path: 'home',
+    component: HomeComponent
+  }
 ])
 
 @NgModule({
