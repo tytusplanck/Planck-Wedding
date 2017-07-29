@@ -1,8 +1,19 @@
+<md-toolbar color="primary">
+  <md-toolbar-row>
+    <h1>Planck Wedding</h1>
+    <span class="example-spacer"></span>
+    <md-sidenav-container class="example-container">
+      <md-sidenav #sidenav class="example-sidenav">
+        <button md-button routerLink="/home" routerLinkActive="active">Home</button>
+      </md-sidenav>
 
-<h1>Planck Wedding (App)</h1>
-
-<nav>
-   <a routerLink="/home" routerLinkActive="active">Home</a>
- </nav>
+      <div class="example-sidenav-content">
+        <button type="button" md-button (click)="sidenav.open()">
+          Open Menu
+        </button>
+      </div>
+    </md-sidenav-container>
+  </md-toolbar-row>
+</md-toolbar>
 
 <router-outlet></router-outlet>

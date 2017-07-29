@@ -1,33 +1,34 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { RouterModule, Routes }   from '@angular/router';
+import { Router }   from '@angular/router';
 
-import {MdButtonModule} from '@angular/material';
+import { MdButtonModule, MdToolbarModule, MdIconModule, MdSidenavModule} from '@angular/material';
 
+import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './shared/home/home.component'
 import { AppComponent } from './app.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
     HttpModule,
     MdButtonModule,
-    RouterModule.forRoot([
-      {
-        path: 'home',
-        component: HomeComponent
-      }
-    ])
+    AppRoutingModule,
+    MdToolbarModule,
+    MdIconModule,
+    MdSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 }) 
 export class AppModule {
+
+  constructor(router: Router) {
+   }
 }
