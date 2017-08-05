@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { Router }   from '@angular/router';
 
-import { MdButtonModule, MdToolbarModule, MdIconModule, MdSidenavModule, MdTabsModule} from '@angular/material';
+import { MdButtonModule, MdToolbarModule, MdIconModule, MdSidenavModule, MdTabsModule, MdTabNav} from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './shared/home/home.component'

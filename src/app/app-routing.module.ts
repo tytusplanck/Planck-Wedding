@@ -6,6 +6,7 @@ import { PhotosComponent } from './photos/photos.component'
 import { RegistryComponent } from './registry/registry.component'
 
 const appRoutes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   {
     path: 'home',
     component: HomeComponent
