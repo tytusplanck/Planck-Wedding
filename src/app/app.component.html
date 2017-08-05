@@ -1,19 +1,17 @@
-<md-toolbar color="primary">
-  <md-toolbar-row>
-    <h1>Planck Wedding</h1>
-    <span class="example-spacer"></span>
-    <md-sidenav-container class="example-container">
-      <md-sidenav #sidenav class="example-sidenav">
-        <button md-button routerLink="/home" routerLinkActive="active">Home</button>
-      </md-sidenav>
+<nav md-tab-nav-bar>
+  <a md-tab-link [routerLink]="['/home']" (click)="activeLinkIndex = 1" routerLinkActive #rla="routerLinkActive" [active]="activeLinkIndex === 1">
+    Home
+  </a>
+  <a md-tab-link [routerLink]="['/photos']" (click)="activeLinkIndex = 2" routerLinkActive #rla="routerLinkActive" [active]="activeLinkIndex === 2">
+    Photos
+  </a>
+  <a md-tab-link [routerLink]="['/registry']" (click)="activeLinkIndex = 3" routerLinkActive #rla="routerLinkActive" [active]="activeLinkIndex === 3">
+    Registry
+  </a>
+</nav>
 
-      <div class="example-sidenav-content">
-        <button type="button" md-button (click)="sidenav.open()">
-          Open Menu
-        </button>
-      </div>
-    </md-sidenav-container>
-  </md-toolbar-row>
-</md-toolbar>
+
+
+
 
 <router-outlet></router-outlet>

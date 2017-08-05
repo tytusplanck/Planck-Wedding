@@ -3,17 +3,21 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { Router }   from '@angular/router';
 
-import { MdButtonModule, MdToolbarModule, MdIconModule, MdSidenavModule} from '@angular/material';
+import { MdButtonModule, MdToolbarModule, MdIconModule, MdSidenavModule, MdTabsModule} from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './shared/home/home.component'
 import { AppComponent } from './app.component';
+import { PhotosComponent } from './photos/photos.component';
+import { RegistryComponent } from './registry/registry.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    PhotosComponent,
+    RegistryComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +26,8 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     MdToolbarModule,
     MdIconModule,
-    MdSidenavModule
+    MdSidenavModule,
+    MdTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
