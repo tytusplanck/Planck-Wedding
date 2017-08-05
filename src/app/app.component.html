@@ -1,4 +1,4 @@
-<nav md-tab-nav-bar>
+<nav md-tab-nav-bar color=primary>
   <a md-tab-link [routerLink]="['/home']" (click)="activeLinkIndex = 1" routerLinkActive #rla="routerLinkActive" [active]="activeLinkIndex === 1">
     Home
   </a>
@@ -9,9 +9,5 @@
     Registry
   </a>
 </nav>
-
-
-
-
 
 <router-outlet></router-outlet>
