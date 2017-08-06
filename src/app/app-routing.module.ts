@@ -1,19 +1,19 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './shared/home/home.component';
+import { OurStoryComponent } from './our-story/our-story.component';
 import{ RouterOutlet } from '@angular/router';
 import { PhotosComponent } from './photos/photos.component';
 import { RegistryComponent } from './registry/registry.component';
 import { OurWeddingComponent } from './our-wedding/our-wedding.component';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/ourstory', pathMatch: 'full' },
   {
-    path: 'home',
-    component: HomeComponent
+    path: 'ourstory',
+    component: OurStoryComponent
   },
   {
-    path: 'ourwedding',
+    path: 'weddingdetails',
     component: OurWeddingComponent
   },
   {
