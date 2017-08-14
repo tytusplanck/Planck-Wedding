@@ -1,10 +1,12 @@
 <md-sidenav-container fullscreen>
-  <md-toolbar>
+  <md-toolbar class="app-toolbar-menu">
     <button class="app-icon-button" (click)="sidenav.toggle()">
-      <md-icon class="material-icons app-toolbar-menu">menu</md-icon>
+      <md-icon class="material-icons">menu</md-icon>
     </button>
 
-    <h1>
+    <div class="spacer"></div>
+
+    <h1 class="home-icon">
       <a routerLink="/ourstory">
         Planck Wedding
       </a>
