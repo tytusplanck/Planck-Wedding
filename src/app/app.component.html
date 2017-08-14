@@ -1,16 +1,22 @@
-<nav md-tab-nav-bar color=primary>
-  <a md-tab-link [routerLink]="['/ourstory']" (click)="activeLinkIndex = 1" routerLinkActive #rla="routerLinkActive" [active]="activeLinkIndex === 1">
-    Our Story
-  </a>
-  <a md-tab-link [routerLink]="['/weddingdetails']" (click)="activeLinkIndex = 2" routerLinkActive #rla="routerLinkActive" [active]="activeLinkIndex === 2">
-    Wedding Details
-  </a>
-  <a md-tab-link [routerLink]="['/photos']" (click)="activeLinkIndex = 3" routerLinkActive #rla="routerLinkActive" [active]="activeLinkIndex === 3">
-    Photos
-  </a>
-  <a md-tab-link [routerLink]="['/registry']" (click)="activeLinkIndex = 4" routerLinkActive #rla="routerLinkActive" [active]="activeLinkIndex === 4">
-    Registry
-  </a>
-</nav>
+<md-sidenav-container fullscreen>
+  <md-toolbar>
+    <button class="app-icon-button" (click)="sidenav.toggle()">
+      <md-icon class="material-icons app-toolbar-menu">menu</md-icon>
+    </button>
 
-<router-outlet></router-outlet>
+    <h1>
+      <a routerLink="/ourstory">
+        Planck Wedding
+      </a>
+    </h1>
+  </md-toolbar>
+
+  <md-sidenav #sidenav mode="side" class="app-sidenav" (click)="sidenav.toggle()">
+    <app-menu-list></app-menu-list>
+  </md-sidenav>
+
+  <div class="app-content">
+    <router-outlet></router-outlet>
+  </div>
+
+</md-sidenav-container>
