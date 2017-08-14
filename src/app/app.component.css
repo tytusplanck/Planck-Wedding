@@ -4,6 +4,11 @@
 
 .home-icon {
   height: 70%;
+  margin-left: .1vw;
+}
+
+.menu-height {
+  height: 70%;
 }
 
 html,
@@ -19,6 +24,8 @@ md-sidenav-container,
 
 .app-content {
   padding: 20px;
+  padding-left: 4vw;
+  padding-right: 4vw;
 }
 
 .app-content md-card {
@@ -31,9 +38,10 @@ md-sidenav-container,
 }
 
 .app-toolbar-menu {
-  padding: 0 14px 0 14px;
   background-color: #85b78e;
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.14);
+  min-height: 64px;
+  max-height: 64px;
 }
 
 .app-icon-button {
@@ -47,11 +55,13 @@ md-sidenav-container,
   height: auto;
   line-height: inherit;
   margin: 0;
-  min-width: 0;
+  min-width: 0 !important;
   padding: 0;
   text-align: left;
   text-decoration: none;
   outline: none;
+  min-height: 64px !important;
+  max-height: 64px !important;
 }
 
 a {
