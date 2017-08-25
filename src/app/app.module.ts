@@ -11,7 +11,6 @@ import {
 import { AppRoutingModule } from './app-routing.module';
 import { OurStoryComponent } from './our-story/our-story.component';
 import { AppComponent } from './app.component';
-import { PhotosComponent } from './photos/photos.component';
 import { RegistryComponent } from './registry/registry.component';
 import { OurWeddingComponent } from './our-wedding/our-wedding.component';
 import { MenuListComponent } from './shared/menu-list/menu-list.component';
@@ -21,7 +20,6 @@ import { MenuListComponent } from './shared/menu-list/menu-list.component';
   declarations: [
     AppComponent,
     OurStoryComponent,
-    PhotosComponent,
     RegistryComponent,
     OurWeddingComponent,
     OurStoryComponent,
