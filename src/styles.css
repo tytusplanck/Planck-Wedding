@@ -6,6 +6,47 @@
   font-family: 'Dancing Script', cursive !important;
 }
 
-h1 {
-  font-size: 300%;
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 8px;
+  }
+}
+
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}
+
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 961px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
 }
