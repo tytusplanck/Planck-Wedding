@@ -6,6 +6,12 @@
   font-family: 'Dancing Script', cursive !important;
 }
 
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
 
 /* Mobile Styles */
 
