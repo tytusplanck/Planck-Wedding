@@ -1,3 +1,16 @@
+material-app,
+md-sidenav-container,
+.my-content {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #d4d4d4;
+}
+
+.mat-sidenav-content {
+  height: 100% !important;
+}
+
 .spacer {
   margin: 1vw;
 }
@@ -11,21 +24,11 @@
   height: 70%;
 }
 
-html,
-body,
-material-app,
-md-sidenav-container,
-.my-content {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #d4d4d4;
-}
-
 .app-content {
   padding: 20px;
   padding-left: 4vw;
   padding-right: 4vw;
+  height: 100%;
 }
 
 .app-content md-card {
