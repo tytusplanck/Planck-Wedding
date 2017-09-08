@@ -3,31 +3,21 @@ md-sidenav-container,
 .my-content {
   height: 100%;
   width: 100%;
-  margin: 0;
+  margin: 0 !important;
+  padding: 0 !important;
   background-color: #d4d4d4;
 }
 
 .mat-sidenav-content {
   height: 100% !important;
-}
-
-.spacer {
-  margin: 1vw;
-}
-
-.home-icon {
-  height: 70%;
-  margin-left: .1vw;
-}
-
-.menu-height {
-  height: 70%;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .app-content {
-  padding: 20px;
+  /* padding: 20px;
   padding-left: 4vw;
-  padding-right: 4vw;
+  padding-right: 4vw; */
   height: 100%;
 }
 
@@ -40,14 +30,8 @@ md-sidenav-container,
   min-width: 100px;
 }
 
-.app-toolbar-menu {
-  background-color: transparent;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.14);
-  min-height: 64px;
-  max-height: 64px;
-}
-
 .app-icon-button {
+  color: white;
   box-shadow: none !important;
   user-select: none;
   background: none;
@@ -64,8 +48,15 @@ md-sidenav-container,
   text-align: left;
   text-decoration: none;
   outline: none;
+  position: fixed;
   min-height: 64px !important;
   max-height: 64px !important;
+}
+
+.menu-height {
+  font-size: 45px;
+  /* width: 400px !important;
+  height: 400px !important; */
 }
 
 a {

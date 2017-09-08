@@ -1,17 +1,7 @@
 <md-sidenav-container fullscreen>
-  <!-- <md-toolbar class="app-toolbar-menu"> -->
   <button class="app-icon-button" (click)="sidenav.toggle()">
       <md-icon class="material-icons menu-height">menu</md-icon>
     </button>
-
-  <!-- <div class="spacer"></div> -->
-
-  <!-- <h1 class="home-icon">
-      <a routerLink="/ourstory">
-        Tytus & Kelsey's Wedding
-      </a>
-    </h1> -->
-  <!-- </md-toolbar> -->
 
   <md-sidenav #sidenav mode="side" class="app-sidenav" (click)="sidenav.toggle()">
     <app-menu-list></app-menu-list>
