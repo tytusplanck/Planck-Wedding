@@ -1,7 +1,11 @@
 <md-sidenav-container fullscreen>
-  <button class="app-icon-button" (click)="sidenav.toggle()">
-      <md-icon class="material-icons menu-height">menu</md-icon>
-    </button>
+  <div class="box white"></div>
+  <div class="app-icon-wrapper">
+    <button class="app-icon-button" (click)="sidenav.toggle()">
+        <md-icon class="material-icons menu-height">menu</md-icon>
+      </button>
+  </div>
+
 
   <md-sidenav #sidenav mode="side" class="app-sidenav" (click)="sidenav.toggle()">
     <app-menu-list></app-menu-list>

@@ -4,7 +4,7 @@ html {
 }
 
 .bg {
-  background-image: url("../../assets/pictures/shoes.jpg");
+  background-image: url("../../assets/pictures/goodfootball.jpg");
   height: 100% !important;
   width: 100% !important;
   background-position: center;
@@ -16,9 +16,25 @@ html {
 
 .title {
   text-align: center;
-  position: absolute;
-  top: 40%;
+  position: relative;
+  font-size: 500%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #363636;
+}
+
+.box {
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20em;
+  height: 6em;
+  border-radius: 1em;
+}
+
+.white {
+  opacity: 0.85;
+  background: white;
 }

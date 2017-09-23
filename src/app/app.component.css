@@ -30,8 +30,12 @@ md-sidenav-container,
   min-width: 100px;
 }
 
+.app-icon-wrapper {
+  position: fixed;
+}
+
 .app-icon-button {
-  color: white;
+  color: #363636;
   box-shadow: none !important;
   user-select: none;
   background: none;
@@ -41,20 +45,18 @@ md-sidenav-container,
   font-weight: normal;
   height: auto;
   line-height: inherit;
-  margin-left: 1.5vw;
-  margin-top: -.4vw;
+  /* margin-left: 1.5vw;
+  margin-top: -.4vw; */
   min-width: 0 !important;
   padding: 0;
   text-align: left;
   text-decoration: none;
   outline: none;
-  position: fixed;
-  min-height: 64px !important;
-  max-height: 64px !important;
+  /* min-height: 64px !important;
+  max-height: 64px !important; */
 }
 
 .menu-height {
-  font-size: 45px;
   /* width: 400px !important;
   height: 400px !important; */
 }
@@ -62,4 +64,19 @@ md-sidenav-container,
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.box {
+  position: absolute;
+  z-index: 0;
+  /* top: .8%;
+  left: 1.03%; */
+  width: 1.75em;
+  height: 1.75em;
+  border-radius: 1em;
+}
+
+.white {
+  opacity: 0.85;
+  background: white;
 }
