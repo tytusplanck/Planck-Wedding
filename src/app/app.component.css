@@ -71,9 +71,9 @@ a {
   z-index: 0;
   /* top: .8%;
   left: 1.03%; */
-  width: 1.75em;
-  height: 1.75em;
-  border-radius: 1em;
+  width: 1.65em;
+  height: 1.65em;
+  /* border-radius: 1em; */
 }
 
 .white {

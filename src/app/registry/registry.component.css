@@ -3,6 +3,11 @@
   height: 100%;
 }
 
+.title {
+  margin-left: .75em;
+  position: relative !important;
+}
+
 
 /* Mobile Styles */
 
