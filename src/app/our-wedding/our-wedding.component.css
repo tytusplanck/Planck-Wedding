@@ -3,3 +3,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.party-pics {
+  width: 100%;
+  height: 100%;
+}
+
+.background-party {
+  background-color: #d4d4d4 !important;
+}

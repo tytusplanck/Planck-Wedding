@@ -5,7 +5,8 @@ md-sidenav-container,
   width: 100%;
   margin: 0 !important;
   padding: 0 !important;
-  background-color: #d4d4d4;
+  /* background-color: #d4d4d4; */
+  background: linear-gradient(180deg, #d4d4d4 50%, #657585 50%);
 }
 
 .mat-sidenav-content {
