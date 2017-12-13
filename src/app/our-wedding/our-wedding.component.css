@@ -1,5 +1,10 @@
+body,
+html {
+  height: 100% !important;
+}
+
 .details-card {
-  width: 75%;
+  width: 52%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -9,6 +14,172 @@
   height: 100%;
 }
 
-.background-party {
-  background-color: #d4d4d4 !important;
+.title {
+  text-align: center;
+  position: relative;
+  font-size: 500%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.cover-details {
+  background: linear-gradient( rgba(20, 20, 20, .4), rgba(20, 20, 20, .4)), url("../../assets/pictures/farawayosuk+t.jpg");
+  height: 100% !important;
+  width: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  padding: 0 !important;
+  margin: auto !important;
+}
+
+.wedding-party-background {
+  background-color: #92b6d5;
+  color: white;
+  clear: both;
+}
+
+.when-where {
+  box-sizing: border-box;
+  background-color: #4c6a92;
+}
+
+.ww-pic {
+  width: 40%;
+  float: left;
+}
+
+.ww-pic-image {
+  width: 60%;
+  height: 60%;
+  padding: 2em;
+}
+
+.ww-info {
+  width: 60%;
+  float: left;
+  color: white;
+  text-align: center;
+}
+
+#rig {
+  max-width: 900px;
+  margin: 0 auto;
+  /*center aligned*/
+  padding: 0;
+  font-size: 0;
+  /* Remember to change it back to normal font size if have captions */
+  list-style: none;
+  background-color: none;
+}
+
+#rig li {
+  display: inline-block;
+  *display: inline;
+  /*for IE6 - IE7*/
+  width: 25%;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* The wrapper for each item */
+
+.rig-cell {
+  /*margin:12px;
+  box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* If have the image layer */
+
+.rig-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: none;
+  transform: scale(1);
+  transition: all 1s;
+}
+
+#rig li:hover .rig-img {
+  transform: scale(1.05);
+}
+
+
+/* If have the overlay layer */
+
+.rig-overlay {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background: #d3b6ca no-repeat center 10%;
+  background-size: 50px 50px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /*For IE6 - IE8*/
+  transition: all 0.6s;
+}
+
+#rig li:hover .rig-overlay {
+  opacity: 0.8;
+}
+
+
+/* If have captions */
+
+.rig-text {
+  display: block;
+  padding: 0 30px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal!important;
+  top: 40%;
+  color: white;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /*For older IE*/
+  transform: translateY(-20px);
+  transition: all .3s;
+}
+
+#rig li:hover .rig-text {
+  transform: translateY(0px);
+  opacity: 0.9;
+}
+
+@media (max-width: 9000px) {
+  #rig li {
+    width: 25%;
+  }
+}
+
+@media (max-width: 700px) {
+  #rig li {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 550px) {
+  #rig li {
+    width: 50%;
+  }
 }

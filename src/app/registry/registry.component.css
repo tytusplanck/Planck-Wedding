@@ -1,17 +1,34 @@
+body,
+html {
+  height: 100% !important;
+}
+
 * {
   box-sizing: border-box;
 }
 
-.registry {
+
+/* .registry {
   width: 100%;
   height: 100%;
   overflow: hidden;
+} */
+
+.registry {
+  background: linear-gradient( rgba(20, 20, 20, .4), rgba(20, 20, 20, .4)), url("../../assets/pictures/shoesk+t.jpg");
+  height: 100% !important;
+  width: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  padding: 0 !important;
+  margin: auto !important;
 }
 
 .title {
   text-align: center;
   /* margin-left: .75em; */
-  position: relative !important;
+  position: relative;
 }
 
 .details-card {
