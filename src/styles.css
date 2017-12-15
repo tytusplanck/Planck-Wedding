@@ -1,11 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import '~@angular/material/prebuilt-themes/indigo-pink.css';
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-*:not(md-icon) {
-  font-family: 'Dancing Script', cursive !important;
-}
 
+/* @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+*:not(md-icon) {
+  font-family: 'Dancing Script', cursive;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 body,
 html {
   width: 100%;
@@ -15,6 +18,8 @@ html {
   margin: 0;
   background-color: #d4d4d4;
   overflow-x: hidden;
+  /* font-family: 'Slabo 27px', serif; */
+  font-family: 'Shadows Into Light', cursive;
 }
 
 
