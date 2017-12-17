@@ -225,6 +225,7 @@ html {
   display: block;
   position: relative;
   overflow: hidden;
+  pointer-events: none
 }
 
 

@@ -16,23 +16,91 @@ html {
   background-blend-mode: multiply;
 }
 
-.title {
-  text-align: center;
-  position: relative;
-  font-size: 500%;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 650px) {
+  .title {
+    text-align: center;
+    position: relative;
+    font-size: 300%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .button-wrapper {
+    text-align: center;
+    position: relative;
+    top: 50%;
+  }
+  .detail {
+    text-align: center;
+    position: relative;
+    font-size: 200%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 }
 
-.rsvp {
-  text-align: center;
-  position: relative;
-  font-size: 100%;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 651px) and (max-width: 1026px) {
+  .title {
+    text-align: center;
+    position: relative;
+    font-size: 500%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .button-wrapper {
+    text-align: center;
+    position: relative;
+    top: 45%;
+  }
+  .detail {
+    text-align: center;
+    position: relative;
+    font-size: 200%;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
+
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1027px) {
+  .title {
+    text-align: center;
+    position: relative;
+    font-size: 500%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .button-wrapper {
+    text-align: center;
+    position: relative;
+    top: 45%;
+  }
+  .detail {
+    text-align: center;
+    position: relative;
+    font-size: 200%;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 }
 
 a.button {
@@ -41,16 +109,6 @@ a.button {
   appearance: button;
   text-decoration: none;
   color: initial;
-}
-
-.detail {
-  text-align: center;
-  position: relative;
-  font-size: 200%;
-  top: 78%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
 }
 
 .box {
