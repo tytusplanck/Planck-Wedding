@@ -27,10 +27,13 @@ html {
     font: bold;
     font-size: 56px;
     text-align: center;
+    margin-bottom: -.15em;
+    margin-top: -.35em;
   }
   .wp-subheader {
     font-size: 24px;
     text-align: center;
+    margin-bottom: -.35em;
   }
   .when-where {
     color: black;
@@ -77,10 +80,13 @@ html {
     font: bold;
     font-size: 64px;
     text-align: center;
+    margin-bottom: -.35em;
+    margin-top: -.35em;
   }
   .wp-subheader {
     font-size: 26px;
     text-align: center;
+    margin-bottom: -.35em;
   }
   .when-where {
     box-sizing: border-box;
@@ -129,10 +135,13 @@ html {
     font: bold;
     font-size: 80px;
     text-align: center;
+    margin-bottom: -.35em;
+    margin-top: -.35em;
   }
   .wp-subheader {
     font-size: 36px;
     text-align: center;
+    margin-bottom: -.35em;
   }
   .when-where {
     box-sizing: border-box;

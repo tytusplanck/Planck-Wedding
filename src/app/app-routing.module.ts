@@ -13,7 +13,7 @@ const appRoutes: Routes = [
   },
   {
     path: 'weddingdetails',
-    component: OurWeddingComponent
+    component: OurWeddingComponent,
   },
   {
     path: 'registry',
@@ -26,7 +26,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
       appRoutes,
       {
-        enableTracing: false
+        // enableTracing: false
 
       }
     )
@@ -37,4 +37,5 @@ const appRoutes: Routes = [
   providers: [
   ]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

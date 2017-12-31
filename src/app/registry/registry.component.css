@@ -8,11 +8,105 @@ html {
 }
 
 
-/* .registry {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-} */
+/* Mobile Styles */
+
+@media only screen and (max-width: 650px) {
+  .title {
+    text-align: center;
+    position: relative;
+    font-size: 450%;
+    top: 2%;
+    margin-bottom: -1.1em;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 30px;
+    margin-bottom: -.025em;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  .reg-img {
+    display: block;
+    width: 54%;
+    margin: auto;
+  }
+}
+
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 651px) and (max-width: 1026px) {
+  .title {
+    text-align: center;
+    position: relative;
+    font-size: 500%;
+    top: 5%;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  .one {
+    grid-column: 1/3;
+    grid-row: 3;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .reg-img {
+    display: block;
+    width: 85%;
+    margin: auto;
+  }
+}
+
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1027px) {
+  .title {
+    text-align: center;
+    position: relative;
+    font-size: 500%;
+    top: 5%;
+  }
+  h1 {
+    font-size: 84px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  .one {
+    grid-column: 1 / 3;
+    grid-row: 3;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .reg-img {
+    display: block;
+    width: 85%;
+    margin: auto;
+  }
+}
 
 .registry {
   background: linear-gradient( rgba(20, 20, 20, .4), rgba(20, 20, 20, .4)), url("../../assets/pictures/shoesk+t.jpg");
@@ -23,12 +117,6 @@ html {
   background-size: cover !important;
   padding: 0 !important;
   margin: auto !important;
-}
-
-.title {
-  text-align: center;
-  /* margin-left: .75em; */
-  position: relative;
 }
 
 .details-card {
@@ -58,52 +146,6 @@ html {
   position: relative;
 }
 
-.one {
-  grid-column: 1 / 3;
-  grid-row: 3;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-}
-
-
-/* Mobile Styles */
-
-@media only screen and (max-width: 400px) {
-  h1 {
-    font-size: 32px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 16px;
-  }
-}
-
-
-/* Tablet Styles */
-
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  h1 {
-    font-size: 38px;
-  }
-  h2 {
-    font-size: 28px;
-  }
-}
-
-
-/* Desktop Styles */
-
-@media only screen and (min-width: 961px) {
-  h1 {
-    font-size: 84px;
-  }
-  h2 {
-    font-size: 42px;
-  }
+.stores {
+  margin-top: 5em;
 }

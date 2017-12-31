@@ -1,6 +1,7 @@
 body,
 html {
   height: 100% !important;
+  margin: 0;
 }
 
 .bg {
@@ -16,6 +17,52 @@ html {
   background-blend-mode: multiply;
 }
 
+.story-bg {
+  background-color: #708090 !important;
+  color: white !important;
+  height: 80% !important;
+  width: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  padding: 0 !important;
+  margin: auto !important;
+  background-blend-mode: multiply;
+}
+
+.story-info-bg {
+  background-image: url("../../assets/pictures/walkingk+t.jpg");
+  height: 100% !important;
+  width: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  padding: 0 !important;
+  margin: auto !important;
+  background-color: rgba(0, 0, 0, .10);
+  background-blend-mode: multiply;
+}
+
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 50%;
+  /* padding: 10px; */
+  height: 100% !important;
+  /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /* Mobile Styles */
 
@@ -29,10 +76,28 @@ html {
     transform: translate(-50%, -50%);
     color: white;
   }
+  .additional-title {
+    text-align: center;
+    position: relative;
+    font-size: 300%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .story-title {
+    text-align: center;
+    position: relative;
+    font-size: 300%;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white !important;
+  }
   .button-wrapper {
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 53%;
   }
   .detail {
     text-align: center;
@@ -42,6 +107,29 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+  .story-text {
+    text-align: center;
+    font-size: 95%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+  }
+  .button-wrapper-details {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 2%;
+  }
+  .buttons-outer {
+    width: 100%;
+    text-align: center;
+    margin-top: 6%;
+  }
+  .buttons-outer-hotel {
+    width: 100%;
+    text-align: center;
+    margin-top: 65%;
   }
 }
 
@@ -58,10 +146,28 @@ html {
     transform: translate(-50%, -50%);
     color: white;
   }
+  .additional-title {
+    text-align: center;
+    position: relative;
+    font-size: 500%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .story-title {
+    text-align: center;
+    position: relative;
+    font-size: 500%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white !important;
+  }
   .button-wrapper {
     text-align: center;
     position: relative;
-    top: 45%;
+    top: 50%;
   }
   .detail {
     text-align: center;
@@ -71,6 +177,29 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+  .story-text {
+    text-align: center;
+    font-size: 115%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+  }
+  .button-wrapper-details {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 2%;
+  }
+  .buttons-outer {
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+  }
+  .buttons-outer-hotel {
+    width: 100%;
+    text-align: center;
+    margin-top: 28%;
   }
 }
 
@@ -87,10 +216,28 @@ html {
     transform: translate(-50%, -50%);
     color: white;
   }
+  .additional-title {
+    text-align: center;
+    position: relative;
+    font-size: 500%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .story-title {
+    text-align: center;
+    position: relative;
+    font-size: 500%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white !important;
+  }
   .button-wrapper {
     text-align: center;
     position: relative;
-    top: 45%;
+    top: 50%;
   }
   .detail {
     text-align: center;
@@ -100,6 +247,29 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+  .story-text {
+    text-align: center;
+    font-size: 120%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+  }
+  .button-wrapper-details {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-top: 2%;
+  }
+  .buttons-outer {
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+  }
+  .buttons-outer-hotel {
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
   }
 }
 
