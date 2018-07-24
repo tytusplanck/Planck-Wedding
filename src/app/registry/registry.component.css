@@ -7,22 +7,32 @@ html {
   box-sizing: border-box;
 }
 
+/* Extremely Small Mobile Styles */
 
-/* Mobile Styles */
-
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 349px) {
+  .registry {
+    background: linear-gradient( rgba(20, 20, 20, .4), rgba(20, 20, 20, .4)), url("../../assets/pictures/shoesk+t.jpg");
+    height: 130% !important;
+    width: 130% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    padding: 0 !important;
+    margin: auto !important;
+    background-color: #708090;
+  }
   .title {
     text-align: center;
     position: relative;
-    font-size: 450%;
+    font-size: 300%;
     top: 2%;
-    margin-bottom: -1.1em;
+    margin-bottom: -1.8em;
   }
   h1 {
-    font-size: 32px;
+    font-size: 26px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: -.025em;
   }
   h3 {
@@ -44,10 +54,146 @@ html {
   }
 }
 
+@media only screen and (min-width: 350px) and (max-width: 376px) {
+  .registry {
+    background: linear-gradient( rgba(20, 20, 20, .4), rgba(20, 20, 20, .4)), url("../../assets/pictures/shoesk+t.jpg");
+    height: 130% !important;
+    width: 130% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    padding: 0 !important;
+    margin: auto !important;
+    background-color: #708090;
+  }
+  .title {
+    text-align: center;
+    position: relative;
+    font-size: 300%;
+    top: 2%;
+    margin-bottom: -1.8em;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: -.025em;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  .reg-img {
+    display: block;
+    width: 54%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 420px) {
+  .registry {
+    background: linear-gradient( rgba(20, 20, 20, .4), rgba(20, 20, 20, .4)), url("../../assets/pictures/shoesk+t.jpg");
+    height: 130% !important;
+    width: 130% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    padding: 0 !important;
+    margin: auto !important;
+    background-color: #708090;
+  }
+  .title {
+    text-align: center;
+    position: relative;
+    font-size: 300%;
+    top: 2%;
+    margin-bottom: -1.8em;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: -.025em;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  .reg-img {
+    display: block;
+    width: 54%;
+    margin: auto;
+  }
+}
+
+/* Large Mobile Styles */
+
+@media only screen and (min-width: 377px) and (max-width: 750px) {
+  .registry {
+    background: linear-gradient( rgba(20, 20, 20, .4), rgba(20, 20, 20, .4)), url("../../assets/pictures/shoesk+t.jpg");
+    height: 130% !important;
+    width: 130% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    padding: 0 !important;
+    margin: auto !important;
+    background-color: #708090;
+  }
+  .title {
+    text-align: center;
+    position: relative;
+    font-size: 300%;
+    top: 2%;
+    margin-bottom: -1.8em;
+  }
+  h1 {
+    font-size: 20px !important;
+  }
+  h2 {
+    font-size: 22px;
+    margin-bottom: -.055em;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  .reg-img {
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+}
 
 /* Tablet Styles */
 
-@media only screen and (min-width: 651px) and (max-width: 1026px) {
+@media only screen and (min-width: 751px) and (max-width: 1026px) {
   .title {
     text-align: center;
     position: relative;
@@ -75,7 +221,6 @@ html {
     margin: auto;
   }
 }
-
 
 /* Desktop Styles */
 
@@ -117,6 +262,7 @@ html {
   background-size: cover !important;
   padding: 0 !important;
   margin: auto !important;
+  background-color: #708090;
 }
 
 .details-card {
@@ -148,4 +294,9 @@ html {
 
 .stores {
   margin-top: 5em;
+}
+
+.extra-note {
+  height: 70;
+  background-color: #708090;
 }

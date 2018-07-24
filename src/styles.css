@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-
 /* @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
@@ -22,7 +21,6 @@ html {
   font-family: 'Shadows Into Light', cursive;
 }
 
-
 /* Mobile Styles */
 
 @media only screen and (max-width: 400px) {
@@ -33,10 +31,12 @@ html {
     font-size: 16px;
   }
   h3 {
-    font-size: 8px;
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 13px;
   }
 }
-
 
 /* Tablet Styles */
 
@@ -48,10 +48,12 @@ html {
     font-size: 24px;
   }
   h3 {
-    font-size: 16px;
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 14px;
   }
 }
-
 
 /* Desktop Styles */
 
@@ -64,5 +66,8 @@ html {
   }
   h3 {
     font-size: 24px;
+  }
+  h4 {
+    font-size: 20px;
   }
 }

@@ -23,6 +23,9 @@ html {
   .ww-paragraph {
     font-size: 24px;
   }
+  .ww-sidenote {
+    font-size: 22px;
+  }
   .wp-title {
     font: bold;
     font-size: 56px;
@@ -75,6 +78,9 @@ html {
   }
   .ww-paragraph {
     font-size: 26px;
+  }
+  .ww-sidenote {
+    font-size: 20px;
   }
   .wp-title {
     font: bold;
@@ -130,6 +136,9 @@ html {
   }
   .ww-paragraph {
     font-size: 40px;
+  }
+  .ww-sidenote {
+    font-size: 26px;
   }
   .wp-title {
     font: bold;

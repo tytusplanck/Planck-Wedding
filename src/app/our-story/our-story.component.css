@@ -20,7 +20,7 @@ html {
 .story-bg {
   background-color: #708090 !important;
   color: white !important;
-  height: 80% !important;
+  height: 100% !important;
   width: 100% !important;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,7 +43,6 @@ html {
   background-blend-mode: multiply;
 }
 
-
 /* Create two equal columns that floats next to each other */
 
 .column {
@@ -54,7 +53,6 @@ html {
   /* Should be removed. Only for demonstration */
 }
 
-
 /* Clear floats after the columns */
 
 .row:after {
@@ -63,10 +61,21 @@ html {
   clear: both;
 }
 
+/* Extremely Small Mobile Styles */
 
-/* Mobile Styles */
-
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 349px) {
+  .story-bg {
+    background-color: #708090 !important;
+    color: white !important;
+    height: 110% !important;
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    padding: 0 !important;
+    margin: auto !important;
+    background-blend-mode: multiply;
+  }
   .title {
     text-align: center;
     position: relative;
@@ -89,7 +98,7 @@ html {
     text-align: center;
     position: relative;
     font-size: 300%;
-    top: 10%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white !important;
@@ -110,16 +119,16 @@ html {
   }
   .story-text {
     text-align: center;
-    font-size: 95%;
+    font-size: 100%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 6%;
+    margin-top: 0%;
   }
   .button-wrapper-details {
     display: inline-block;
     text-align: center;
     position: relative;
-    margin-top: 2%;
+    margin-top: 1%;
   }
   .buttons-outer {
     width: 100%;
@@ -133,10 +142,186 @@ html {
   }
 }
 
+/* Small Mobile Styles */
+
+@media only screen and (min-width: 350px) and (max-width: 376px) {
+  .story-bg {
+    background-color: #708090 !important;
+    color: white !important;
+    height: 92% !important;
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    padding: 0 !important;
+    margin: auto !important;
+    background-blend-mode: multiply;
+  }
+  .title {
+    text-align: center;
+    position: relative;
+    font-size: 300%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .additional-title {
+    text-align: center;
+    position: relative;
+    font-size: 300%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .story-title {
+    text-align: center;
+    position: relative;
+    font-size: 300%;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white !important;
+  }
+  .button-wrapper {
+    text-align: center;
+    position: relative;
+    top: 53%;
+  }
+  .detail {
+    text-align: center;
+    position: relative;
+    font-size: 200%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .story-text {
+    text-align: center;
+    font-size: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+  }
+  .button-wrapper-details {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 1%;
+  }
+  .buttons-outer {
+    width: 100%;
+    text-align: center;
+    margin-top: 6%;
+  }
+  .buttons-outer-hotel {
+    width: 100%;
+    text-align: center;
+    margin-top: 65%;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 420px) {
+  .story-bg {
+    background-color: #708090 !important;
+    color: white !important;
+    height: 95% !important;
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    padding: 0 !important;
+    margin: auto !important;
+    background-blend-mode: multiply;
+  }
+}
+
+/* Large Mobile Styles */
+
+@media only screen and (min-width: 377px) and (max-width: 750px) {
+  .story-bg {
+    background-color: #708090 !important;
+    color: white !important;
+    height: 110% !important;
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    padding: 0 !important;
+    margin: auto !important;
+    background-blend-mode: multiply;
+  }
+  .title {
+    text-align: center;
+    position: relative;
+    font-size: 400%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .additional-title {
+    text-align: center;
+    position: relative;
+    font-size: 400%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .story-title {
+    text-align: center;
+    position: relative;
+    font-size: 400%;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white !important;
+  }
+  .button-wrapper {
+    text-align: center;
+    position: relative;
+    top: 50%;
+  }
+  .detail {
+    text-align: center;
+    position: relative;
+    font-size: 200%;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .story-text {
+    text-align: center;
+    font-size: 120%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -2%;
+  }
+  .button-wrapper-details {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 1%;
+  }
+  .buttons-outer {
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+  }
+  .buttons-outer-hotel {
+    width: 100%;
+    text-align: center;
+    margin-top: 62%;
+  }
+}
 
 /* Tablet Styles */
 
-@media only screen and (min-width: 651px) and (max-width: 1026px) {
+@media only screen and (min-width: 751px) and (max-width: 1026px) {
   .title {
     text-align: center;
     position: relative;
@@ -159,7 +344,7 @@ html {
     text-align: center;
     position: relative;
     font-size: 500%;
-    top: 15%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white !important;
@@ -180,16 +365,16 @@ html {
   }
   .story-text {
     text-align: center;
-    font-size: 115%;
+    font-size: 150%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 4%;
+    margin-top: 3%;
   }
   .button-wrapper-details {
     display: inline-block;
     text-align: center;
     position: relative;
-    margin-top: 2%;
+    margin-top: 1%;
   }
   .buttons-outer {
     width: 100%;
@@ -202,7 +387,6 @@ html {
     margin-top: 28%;
   }
 }
-
 
 /* Desktop Styles */
 
@@ -250,7 +434,7 @@ html {
   }
   .story-text {
     text-align: center;
-    font-size: 120%;
+    font-size: 175%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 4%;
