@@ -1,12 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpModule } from '@angular/http';
 import { Router } from '@angular/router';
+import { MatButtonModule, MatIconModule, MatSidenavModule, MatTabsModule, MatGridListModule, MatCardModule, MatListModule, MatIconRegistry, MatToolbarModule } from '@angular/material';
 
-import {
-  MdButtonModule, MdToolbarModule, MdIconModule, MdSidenavModule, MdTabsModule, MdTabNav,
-  MdGridListModule, MdCardModule, MdListModule, MdIconRegistry, MaterialModule
-} from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { OurStoryComponent } from './our-story/our-story.component';
@@ -27,19 +23,17 @@ import { MenuListComponent } from './shared/menu-list/menu-list.component';
   ],
   imports: [
     BrowserModule,
-    HttpModule,
-    MdButtonModule,
+    MatButtonModule,
     AppRoutingModule,
-    MdToolbarModule,
-    MdIconModule,
-    MdSidenavModule,
-    MdTabsModule,
-    MdGridListModule,
-    MdCardModule,
-    MdListModule,
-    MaterialModule
+    MatToolbarModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatTabsModule,
+    MatGridListModule,
+    MatCardModule,
+    MatListModule,
   ],
-  providers: [MdIconRegistry],
+  providers: [MatIconRegistry],
   bootstrap: [AppComponent]
 })
 export class AppModule {
