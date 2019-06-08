@@ -25,6 +25,7 @@
     "@angular/router": "^8.0.0",
     "core-js": "^2.5.7",
     "hoek": "^5.0.3",
+    "querystringify": "^2.1.1",
     "rxjs": "^6.5.2",
     "rxjs-compat": "^6.0.0-rc.0",
     "ts-helpers": "^1.1.1",
